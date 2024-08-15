@@ -1,0 +1,513 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  /* Ensures the buttons are positioned relative to the container */
+}
+
+
+
+.map {
+  width: 1180px;
+  height: 866px;
+  background-image: url(../IMAGES/LZE2ndMAP.jpg);
+  background-size: cover;
+  background-position: left;
+  position: relative;
+  /* Necessary for absolute positioning of the overlay image */
+}
+
+
+
+.button {
+  width: 48px;
+  height: 48px;
+  margin-left: 20px;
+  cursor: pointer;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.bomb {
+  background-image: url(../IMAGES/bomb.jpg);
+}
+
+.bomb-pressed {
+  background-image: url(../IMAGES/bombbnw.jpg);
+}
+
+.bomb-on-map {
+  position: absolute;
+  top: 83.1%;
+  left: 18%;
+  width: auto;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Adjust the height or remove this property to maintain the aspect ratio */
+}
+
+.tape {
+  background-image: url(../IMAGES/tape.jpg);
+}
+
+.tape-pressed {
+  background-image: url(../IMAGES/tapebnw.jpg);
+}
+
+.tape-on-map {
+  position: absolute;
+  top: 77.7%;
+  left: 33%;
+  width: auto;
+  height: auto;
+}
+
+.docs {
+  background-image: url(../IMAGES/docs.jpg);
+}
+
+.docs-pressed {
+  background-image: url(../IMAGES/docsbnw.jpg);
+}
+
+.docs-on-map {
+  position: absolute;
+  top: 72%;
+  left: 33.2%;
+  width: auto;
+  height: auto;
+}
+
+.keysa {
+  background-image: url(../IMAGES/keysa.jpg);
+}
+
+.keysa-pressed {
+  background-image: url(../IMAGES/keysabnw.jpg);
+}
+
+.keysa-on-map {
+  position: absolute;
+  top: 64.8%;
+  left: 38.65%;
+  width: auto;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Adjust the height or remove this property to maintain the aspect ratio */
+}
+
+.goldbar {
+  background-image: url(../IMAGES/goldbar.jpg);
+}
+
+.goldbar-pressed {
+  background-image: url(../IMAGES/goldbarbnw.jpg);
+}
+
+.goldbar-on-map {
+  position: absolute;
+  top: 58.35%;
+  left: 44.15%;
+  width: auto;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Adjust the height or remove this property to maintain the aspect ratio */
+}
+
+.pc {
+  background-image: url(../IMAGES/pc.jpg);
+}
+
+.pc-pressed {
+  background-image: url(../IMAGES/pcbnw.jpg);
+}
+
+.pc-on-map {
+  position: absolute;
+  top: 77.2%;
+  left: 40.8%;
+  width: auto;
+  height: auto;
+}
+
+.leg {
+  background-image: url(../IMAGES/leg.jpg);
+}
+
+.leg-pressed {
+  background-image: url(../IMAGES/legbnw.jpg);
+}
+
+.leg-on-map {
+  position: absolute;
+  top: 66.5%;
+  left: 51%;
+  width: auto;
+  height: auto;
+}
+
+.googles {
+  background-image: url(../IMAGES/googles.jpg);
+}
+
+.googles-pressed {
+  background-image: url(../IMAGES/googlebnw.jpg);
+}
+
+.googles-on-map {
+  position: absolute;
+  top: 59.65%;
+  left: 49.8%;
+  width: auto;
+  height: auto;
+}
+
+.headphones {
+  background-image: url(../IMAGES/headphones.jpg);
+}
+
+.headphones-pressed {
+  background-image: url(../IMAGES/headphonesbnw.jpg);
+}
+
+.headphones-on-map {
+  position: absolute;
+  top: 79.6%;
+  left: 51%;
+  width: auto;
+  height: auto;
+}
+
+.bear {
+  background-image: url(../IMAGES/bear.jpg);
+}
+
+.bear-pressed {
+  background-image: url(../IMAGES/bearbnw.jpg);
+}
+
+.bear-on-map {
+  position: absolute;
+  top: 50%;
+  left: 73.3%;
+  width: auto;
+  height: auto;
+}
+
+.solar {
+  background-image: url(../IMAGES/solar.jpg);
+}
+
+.solar-pressed {
+  background-image: url(../IMAGES/solarbnw.jpg);
+}
+
+.solar-on-map {
+  position: absolute;
+  top: 52.1%;
+  left: 30.8%;
+  width: auto;
+  height: auto;
+}
+
+.wristband {
+  background-image: url(../IMAGES/wristband.jpg);
+}
+
+.wristband-pressed {
+  background-image: url(../IMAGES/wristbandbnw.jpg);
+}
+
+.wristband-on-map {
+  position: absolute;
+  top: 53.6%;
+  left: 25.5%;
+  width: auto;
+  height: auto;
+}
+
+.disk {
+  background-image: url(../IMAGES/disk.jpg);
+}
+
+.disk-pressed {
+  background-image: url(../IMAGES/diskbnw.jpg);
+}
+
+.disk-on-map {
+  position: absolute;
+  top: 57.5%;
+  left: 51.75%;
+  width: auto;
+  height: auto;
+}
+
+.keysb {
+  background-image: url(../IMAGES/keysb.jpg);
+}
+
+.keysb-pressed {
+  background-image: url(../IMAGES/keysbbnw.jpg);
+}
+
+.keysb-on-map {
+  position: absolute;
+  top: 13.6%;
+  left: 23.1%;
+  width: auto;
+  height: auto;
+}
+
+.docsb {
+  background-image: url(../IMAGES/docsb.jpg);
+}
+
+.docsb-pressed {
+  background-image: url(../IMAGES/docsbbnw.jpg);
+}
+
+.docsb-on-map {
+  position: absolute;
+  top: 33.1%;
+  left: 27.9%;
+  width: auto;
+  height: auto;
+}
+
+.kula {
+  background-image: url(../IMAGES/kula.jpg);
+}
+
+.kula-pressed {
+  background-image: url(../IMAGES/kulabnw.jpg);
+}
+
+.kula-on-map {
+  position: absolute;
+  top: 27.7%;
+  left: 29.8%;
+  width: auto;
+  height: auto;
+}
+
+.pilot {
+  background-image: url(../IMAGES/pilot.jpg);
+}
+
+.pilot-pressed {
+  background-image: url(../IMAGES/pilotbnw.jpg);
+}
+
+.pilot-on-map {
+  position: absolute;
+  top: 23.7%;
+  left: 33.2%;
+  width: auto;
+  height: auto;
+}
+
+.cigarettes {
+  background-image: url(../IMAGES/cigarettes.jpg);
+}
+
+.cigarettes-pressed {
+  background-image: url(../IMAGES/cigarettesbnw.jpg);
+}
+
+.cigarettes-on-map {
+  position: absolute;
+  top: 19.1%;
+  left: 39.75%;
+  width: auto;
+  height: auto;
+}
+
+.safe {
+  background-image: url(../IMAGES/safe.jpg);
+}
+
+.safe-pressed {
+  background-image: url(../IMAGES/safebnw.jpg);
+}
+
+.safe-on-map {
+  position: absolute;
+  top: 18.1%;
+  left: 43.4%;
+  width: auto;
+  height: auto;
+}
+
+.bpb {
+  background-image: url(../IMAGES/bpb.jpg);
+}
+
+.bpb-pressed {
+  background-image: url(../IMAGES/bpbbnw.jpg);
+}
+
+.bpb-on-map {
+  position: absolute;
+  top: 38.25%;
+  left: 35.85%;
+  width: auto;
+  height: auto;
+}
+
+.diary {
+  background-image: url(../IMAGES/diary.jpg);
+}
+
+.diary-pressed {
+  background-image: url(../IMAGES/diarybnw.jpg);
+}
+
+.diary-on-map {
+  position: absolute;
+  top: 41.5%;
+  left: 42%;
+  width: auto;
+  height: auto;
+}
+
+.keysc {
+  background-image: url(../IMAGES/keysc.jpg);
+}
+
+.keysc-pressed {
+  background-image: url(../IMAGES/keyscbnw.jpg);
+}
+
+.keysc-on-map {
+  position: absolute;
+  top: 15.1%;
+  left: 56.35%;
+  width: auto;
+  height: auto;
+}
+
+.scaner {
+  background-image: url(../IMAGES/scaner.jpg);
+}
+
+.scaner-pressed {
+  background-image: url(../IMAGES/scanerbnw.jpg);
+}
+
+.scaner-on-map {
+  position: absolute;
+  top: 16.3%;
+  left: 68.45%;
+  width: auto;
+  height: auto;
+}
+
+.pig {
+  background-image: url(../IMAGES/pig.jpg);
+}
+
+.pig-pressed {
+  background-image: url(../IMAGES/pigbnw.jpg);
+}
+
+.pig-on-map {
+  position: absolute;
+  top: 17.3%;
+  left: 74.2%;
+  width: auto;
+  height: auto;
+}
+
+.bpg {
+  background-image: url(../IMAGES/bpg.jpg);
+}
+
+.bpg-pressed {
+  background-image: url(../IMAGES/bpgbnw.jpg);
+}
+
+.bpg-on-map {
+  position: absolute;
+  top: 36.3%;
+  left: 52.45%;
+  width: auto;
+  height: auto;
+}
+
+.bpw {
+  background-image: url(../IMAGES/bpw.jpg);
+}
+
+.bpw-pressed {
+  background-image: url(../IMAGES/bpwbnw.jpg);
+}
+
+.bpw-on-map {
+  position: absolute;
+  top: 38.3%;
+  left: 59.15%;
+  width: auto;
+  height: auto;
+}
+
+.scanner {
+  background-image: url(../IMAGES/scanner.jpg);
+}
+
+.scanner-pressed {
+  background-image: url(../IMAGES/scannerbnw.jpg);
+}
+
+.scanner-on-map {
+  position: absolute;
+  top: 41.5%;
+  left: 61.4%;
+  width: auto;
+  height: auto;
+}
+
+.radio {
+  background-image: url(../IMAGES/radio.jpg);
+}
+
+.radio-pressed {
+  background-image: url(../IMAGES/radiobnw.jpg);
+}
+
+.radio-on-map {
+  position: absolute;
+  top: 44.6%;
+  left: 57.3%;
+  width: auto;
+  height: auto;
+}
+
+.gem {
+  background-image: url(../IMAGES/gem.jpg);
+}
+
+.gem-pressed {
+  background-image: url(../IMAGES/gembnw.jpg);
+}
+
+.gem-on-map {
+  position: absolute;
+  top: 37.4%;
+  left: 73.4%;
+  width: auto;
+  height: auto;
+}
+
+.clear {
+  margin-left: 20px;
+}
