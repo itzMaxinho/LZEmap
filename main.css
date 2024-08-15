@@ -22,7 +22,7 @@ body {
   margin-right: 40px;
   width: 1180px;
   height: 866px;
-  background-image: url(../IMAGES/LZE2ndMAP.jpg);
+  background-image: url(./IMAGES/LZE2ndMAP.jpg);
   background-size: cover;
   background-position: left;
   position: relative;
@@ -40,11 +40,11 @@ body {
 }
 
 .bomb {
-  background-image: url(../IMAGES/bomb.jpg);
+  background-image: url(./IMAGES/bomb.jpg);
 }
 
 .bomb-pressed {
-  background-image: url(../IMAGES/bombbnw.jpg);
+  background-image: url(./IMAGES/bombbnw.jpg);
 }
 
 .bomb-on-map {
@@ -58,11 +58,11 @@ body {
 }
 
 .tape {
-  background-image: url(../IMAGES/tape.jpg);
+  background-image: url(./IMAGES/tape.jpg);
 }
 
 .tape-pressed {
-  background-image: url(../IMAGES/tapebnw.jpg);
+  background-image: url(./IMAGES/tapebnw.jpg);
 }
 
 .tape-on-map {
@@ -74,11 +74,11 @@ body {
 }
 
 .docs {
-  background-image: url(../IMAGES/docs.jpg);
+  background-image: url(./IMAGES/docs.jpg);
 }
 
 .docs-pressed {
-  background-image: url(../IMAGES/docsbnw.jpg);
+  background-image: url(./IMAGES/docsbnw.jpg);
 }
 
 .docs-on-map {
@@ -90,11 +90,11 @@ body {
 }
 
 .keysa {
-  background-image: url(../IMAGES/keysa.jpg);
+  background-image: url(./IMAGES/keysa.jpg);
 }
 
 .keysa-pressed {
-  background-image: url(../IMAGES/keysabnw.jpg);
+  background-image: url(./IMAGES/keysabnw.jpg);
 }
 
 .keysa-on-map {
@@ -108,11 +108,11 @@ body {
 }
 
 .goldbar {
-  background-image: url(../IMAGES/goldbar.jpg);
+  background-image: url(./IMAGES/goldbar.jpg);
 }
 
 .goldbar-pressed {
-  background-image: url(../IMAGES/goldbarbnw.jpg);
+  background-image: url(./IMAGES/goldbarbnw.jpg);
 }
 
 .goldbar-on-map {
@@ -126,11 +126,11 @@ body {
 }
 
 .pc {
-  background-image: url(../IMAGES/pc.jpg);
+  background-image: url(./IMAGES/pc.jpg);
 }
 
 .pc-pressed {
-  background-image: url(../IMAGES/pcbnw.jpg);
+  background-image: url(./IMAGES/pcbnw.jpg);
 }
 
 .pc-on-map {
@@ -142,11 +142,11 @@ body {
 }
 
 .leg {
-  background-image: url(../IMAGES/leg.jpg);
+  background-image: url(./IMAGES/leg.jpg);
 }
 
 .leg-pressed {
-  background-image: url(../IMAGES/legbnw.jpg);
+  background-image: url(./IMAGES/legbnw.jpg);
 }
 
 .leg-on-map {
@@ -158,11 +158,11 @@ body {
 }
 
 .googles {
-  background-image: url(../IMAGES/googles.jpg);
+  background-image: url(./IMAGES/googles.jpg);
 }
 
 .googles-pressed {
-  background-image: url(../IMAGES/googlebnw.jpg);
+  background-image: url(./IMAGES/googlebnw.jpg);
 }
 
 .googles-on-map {
@@ -174,11 +174,11 @@ body {
 }
 
 .headphones {
-  background-image: url(../IMAGES/headphones.jpg);
+  background-image: url(./IMAGES/headphones.jpg);
 }
 
 .headphones-pressed {
-  background-image: url(../IMAGES/headphonesbnw.jpg);
+  background-image: url(./IMAGES/headphonesbnw.jpg);
 }
 
 .headphones-on-map {
@@ -190,11 +190,11 @@ body {
 }
 
 .bear {
-  background-image: url(../IMAGES/bear.jpg);
+  background-image: url(./IMAGES/bear.jpg);
 }
 
 .bear-pressed {
-  background-image: url(../IMAGES/bearbnw.jpg);
+  background-image: url(./IMAGES/bearbnw.jpg);
 }
 
 .bear-on-map {
@@ -206,11 +206,11 @@ body {
 }
 
 .solar {
-  background-image: url(../IMAGES/solar.jpg);
+  background-image: url(./IMAGES/solar.jpg);
 }
 
 .solar-pressed {
-  background-image: url(../IMAGES/solarbnw.jpg);
+  background-image: url(./IMAGES/solarbnw.jpg);
 }
 
 .solar-on-map {
@@ -222,11 +222,11 @@ body {
 }
 
 .wristband {
-  background-image: url(../IMAGES/wristband.jpg);
+  background-image: url(./IMAGES/wristband.jpg);
 }
 
 .wristband-pressed {
-  background-image: url(../IMAGES/wristbandbnw.jpg);
+  background-image: url(./IMAGES/wristbandbnw.jpg);
 }
 
 .wristband-on-map {
@@ -238,11 +238,11 @@ body {
 }
 
 .disk {
-  background-image: url(../IMAGES/disk.jpg);
+  background-image: url(./IMAGES/disk.jpg);
 }
 
 .disk-pressed {
-  background-image: url(../IMAGES/diskbnw.jpg);
+  background-image: url(./IMAGES/diskbnw.jpg);
 }
 
 .disk-on-map {
@@ -254,11 +254,11 @@ body {
 }
 
 .keysb {
-  background-image: url(../IMAGES/keysb.jpg);
+  background-image: url(./IMAGES/keysb.jpg);
 }
 
 .keysb-pressed {
-  background-image: url(../IMAGES/keysbbnw.jpg);
+  background-image: url(./IMAGES/keysbbnw.jpg);
 }
 
 .keysb-on-map {
@@ -270,11 +270,11 @@ body {
 }
 
 .docsb {
-  background-image: url(../IMAGES/docsb.jpg);
+  background-image: url(./IMAGES/docsb.jpg);
 }
 
 .docsb-pressed {
-  background-image: url(../IMAGES/docsbbnw.jpg);
+  background-image: url(./IMAGES/docsbbnw.jpg);
 }
 
 .docsb-on-map {
@@ -286,11 +286,11 @@ body {
 }
 
 .kula {
-  background-image: url(../IMAGES/kula.jpg);
+  background-image: url(./IMAGES/kula.jpg);
 }
 
 .kula-pressed {
-  background-image: url(../IMAGES/kulabnw.jpg);
+  background-image: url(./IMAGES/kulabnw.jpg);
 }
 
 .kula-on-map {
@@ -302,11 +302,11 @@ body {
 }
 
 .pilot {
-  background-image: url(../IMAGES/pilot.jpg);
+  background-image: url(./IMAGES/pilot.jpg);
 }
 
 .pilot-pressed {
-  background-image: url(../IMAGES/pilotbnw.jpg);
+  background-image: url(./IMAGES/pilotbnw.jpg);
 }
 
 .pilot-on-map {
@@ -318,11 +318,11 @@ body {
 }
 
 .cigarettes {
-  background-image: url(../IMAGES/cigarettes.jpg);
+  background-image: url(./IMAGES/cigarettes.jpg);
 }
 
 .cigarettes-pressed {
-  background-image: url(../IMAGES/cigarettesbnw.jpg);
+  background-image: url(./IMAGES/cigarettesbnw.jpg);
 }
 
 .cigarettes-on-map {
@@ -334,11 +334,11 @@ body {
 }
 
 .safe {
-  background-image: url(../IMAGES/safe.jpg);
+  background-image: url(./IMAGES/safe.jpg);
 }
 
 .safe-pressed {
-  background-image: url(../IMAGES/safebnw.jpg);
+  background-image: url(./IMAGES/safebnw.jpg);
 }
 
 .safe-on-map {
@@ -350,11 +350,11 @@ body {
 }
 
 .bpb {
-  background-image: url(../IMAGES/bpb.jpg);
+  background-image: url(./IMAGES/bpb.jpg);
 }
 
 .bpb-pressed {
-  background-image: url(../IMAGES/bpbbnw.jpg);
+  background-image: url(./IMAGES/bpbbnw.jpg);
 }
 
 .bpb-on-map {
@@ -366,11 +366,11 @@ body {
 }
 
 .diary {
-  background-image: url(../IMAGES/diary.jpg);
+  background-image: url(./IMAGES/diary.jpg);
 }
 
 .diary-pressed {
-  background-image: url(../IMAGES/diarybnw.jpg);
+  background-image: url(./IMAGES/diarybnw.jpg);
 }
 
 .diary-on-map {
@@ -382,11 +382,11 @@ body {
 }
 
 .keysc {
-  background-image: url(../IMAGES/keysc.jpg);
+  background-image: url(./IMAGES/keysc.jpg);
 }
 
 .keysc-pressed {
-  background-image: url(../IMAGES/keyscbnw.jpg);
+  background-image: url(./IMAGES/keyscbnw.jpg);
 }
 
 .keysc-on-map {
@@ -398,11 +398,11 @@ body {
 }
 
 .scaner {
-  background-image: url(../IMAGES/scaner.jpg);
+  background-image: url(./IMAGES/scaner.jpg);
 }
 
 .scaner-pressed {
-  background-image: url(../IMAGES/scanerbnw.jpg);
+  background-image: url(./IMAGES/scanerbnw.jpg);
 }
 
 .scaner-on-map {
@@ -414,11 +414,11 @@ body {
 }
 
 .pig {
-  background-image: url(../IMAGES/pig.jpg);
+  background-image: url(./IMAGES/pig.jpg);
 }
 
 .pig-pressed {
-  background-image: url(../IMAGES/pigbnw.jpg);
+  background-image: url(./IMAGES/pigbnw.jpg);
 }
 
 .pig-on-map {
@@ -430,11 +430,11 @@ body {
 }
 
 .bpg {
-  background-image: url(../IMAGES/bpg.jpg);
+  background-image: url(./IMAGES/bpg.jpg);
 }
 
 .bpg-pressed {
-  background-image: url(../IMAGES/bpgbnw.jpg);
+  background-image: url(./IMAGES/bpgbnw.jpg);
 }
 
 .bpg-on-map {
@@ -446,11 +446,11 @@ body {
 }
 
 .bpw {
-  background-image: url(../IMAGES/bpw.jpg);
+  background-image: url(./IMAGES/bpw.jpg);
 }
 
 .bpw-pressed {
-  background-image: url(../IMAGES/bpwbnw.jpg);
+  background-image: url(./IMAGES/bpwbnw.jpg);
 }
 
 .bpw-on-map {
@@ -462,11 +462,11 @@ body {
 }
 
 .scanner {
-  background-image: url(../IMAGES/scanner.jpg);
+  background-image: url(./IMAGES/scanner.jpg);
 }
 
 .scanner-pressed {
-  background-image: url(../IMAGES/scannerbnw.jpg);
+  background-image: url(./IMAGES/scannerbnw.jpg);
 }
 
 .scanner-on-map {
@@ -478,11 +478,11 @@ body {
 }
 
 .radio {
-  background-image: url(../IMAGES/radio.jpg);
+  background-image: url(./IMAGES/radio.jpg);
 }
 
 .radio-pressed {
-  background-image: url(../IMAGES/radiobnw.jpg);
+  background-image: url(./IMAGES/radiobnw.jpg);
 }
 
 .radio-on-map {
@@ -494,11 +494,11 @@ body {
 }
 
 .gem {
-  background-image: url(../IMAGES/gem.jpg);
+  background-image: url(./IMAGES/gem.jpg);
 }
 
 .gem-pressed {
-  background-image: url(../IMAGES/gembnw.jpg);
+  background-image: url(./IMAGES/gembnw.jpg);
 }
 
 .gem-on-map {
