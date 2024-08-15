@@ -19,6 +19,7 @@ body {
 
 
 .map {
+  margin-right: 40px;
   width: 1180px;
   height: 866px;
   background-image: url(../IMAGES/LZE2ndMAP.jpg);
@@ -510,4 +511,37 @@ body {
 
 .clear {
   margin-left: 20px;
+}
+
+.A {
+  background-color: rgb(32, 1, 1);
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.B {
+  background-color: rgb(1, 32, 1);
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.C {
+  background-color: rgb(1, 14, 32);
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.spacea {
+  color: rgb(32, 1, 1);
+}
+
+.spaceb {
+  color: rgb(1, 32, 1);
+}
+
+.spacec {
+  color: rgb(1, 14, 32);
 }
