@@ -253,6 +253,22 @@ body {
   height: auto;
 }
 
+.analyzer {
+  background-image: url(./IMAGES/analyzer.jpg);
+}
+
+.analyzer-pressed {
+  background-image: url(./IMAGES/analyzerbnw.jpg);
+}
+
+.analyzer-on-map {
+  position: absolute;
+  top: 83%;
+  left: 56%;
+  width: auto;
+  height: auto;
+}
+
 .keysb {
   background-image: url(./IMAGES/keysb.jpg);
 }
@@ -510,7 +526,7 @@ body {
 }
 
 .clear {
-  margin-left: 20px;
+  margin-right: 50%;
 }
 
 .A {

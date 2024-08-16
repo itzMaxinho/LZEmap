@@ -28,6 +28,7 @@
       <img src="./IMAGES/wristband.jpg" alt="Overlay Image" class="wristband-on-map" id="wristbandOnMap">
 
       <img src="./IMAGES/disk.jpg" alt="Overlay Image" class="disk-on-map" id="diskOnMap">
+      <img src="./IMAGES/analyzer.jpg" alt="Overlay Image" class="analyzer-on-map" id="analyzerOnMap">
 
 
 
@@ -79,11 +80,10 @@
         <div class="spacea">c</div>
         <div>
           <button class="button disk"></button>
+          <button class="button analyzer"></button>
         </div>
       </div>
       <div class="space">d</div>
-      <div class="space">e</div>
-      <div class="space">f</div>
       <div class="B">
         <div>
           <button class="button keysb"></button>
@@ -100,8 +100,6 @@
         </div>
       </div>
       <div class="space">h</div>
-      <div class="space">i</div>
-      <div class="space">j</div>
       <div class="C">
         <div>
           <button class="button keysc"></button>
@@ -118,8 +116,6 @@
         </div>
       </div>
       <div class="space">l</div>
-      <div class="space">m</div>
-      <div class="space">n</div>
       <div>
         <button class="clear">CLEAR</button>
       </div>
@@ -159,6 +155,8 @@
 
       const diskButton = document.querySelector('.disk');
       const diskImage = document.getElementById('diskOnMap');
+      const analyzerButton = document.querySelector('.analyzer');
+      const analyzerImage = document.getElementById('analyzerOnMap');
 
 
 
@@ -248,6 +246,7 @@
           wristbandImage.style.display = wristbandButton.classList.contains('wristband-pressed') ? 'block' : 'none';
 
           diskImage.style.display = diskButton.classList.contains('disk-pressed') ? 'block' : 'none';
+          analyzerImage.style.display = analyzerButton.classList.contains('analyzer-pressed') ? 'block' : 'none';
 
 
 
