@@ -525,6 +525,22 @@ body {
   height: auto;
 }
 
+.cap {
+  background-image: url(./IMAGES/cap.jpg);
+}
+
+.cap-pressed {
+  background-image: url(./IMAGES/capbnw.jpg);
+}
+
+.cap-on-map {
+  position: absolute;
+  top: 19.2%;
+  left: 63.4%;
+  width: auto;
+  height: auto;
+}
+
 .clear {
   margin-right: 50%;
 }

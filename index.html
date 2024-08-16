@@ -53,6 +53,8 @@
       <img src="./IMAGES/scanner.jpg" alt="Overlay Image" class="scanner-on-map" id="scannerOnMap">
       <img src="./IMAGES/radio.jpg" alt="Overlay Image" class="radio-on-map" id="radioOnMap">
       <img src="./IMAGES/gem.jpg" alt="Overlay Image" class="gem-on-map" id="gemOnMap">
+
+      <img src="./IMAGES/cap.jpg" alt="Overlay Image" class="cap-on-map" id="capOnMap">
     </div>
 
     <div class="columns">
@@ -114,8 +116,12 @@
           <button class="button radio"></button>
           <button class="button gem"></button>
         </div>
+        <div class="spacec">l</div>
+        <div>
+          <button class="button cap"></button>
+        </div>
       </div>
-      <div class="space">l</div>
+      <div class="space">m</div>
       <div>
         <button class="clear">CLEAR</button>
       </div>
@@ -198,6 +204,8 @@
       const gemButton = document.querySelector('.gem');
       const gemImage = document.getElementById('gemOnMap');
 
+      const capButton = document.querySelector('.cap');
+      const capImage = document.getElementById('capOnMap');
 
       // Initially hide the overlay images
       bombImage.style.display = 'none';
@@ -271,6 +279,8 @@
           scannerImage.style.display = scannerButton.classList.contains('scanner-pressed') ? 'block' : 'none';
           radioImage.style.display = radioButton.classList.contains('radio-pressed') ? 'block' : 'none';
           gemImage.style.display = gemButton.classList.contains('gem-pressed') ? 'block' : 'none';
+
+          capImage.style.display = capButton.classList.contains('cap-pressed') ? 'block' : 'none';
         });
       });
 
