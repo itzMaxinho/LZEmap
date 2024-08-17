@@ -1,3 +1,12 @@
+body:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url();
+}
+
 body {
   background-color: #000;
   margin: 0;
@@ -397,6 +406,22 @@ body {
   height: auto;
 }
 
+.drive {
+  background-image: url(./IMAGES/drive.jpg);
+}
+
+.drive-pressed {
+  background-image: url(./IMAGES/drivebnw.jpg);
+}
+
+.drive-on-map {
+  position: absolute;
+  top: 53.1%;
+  left: 39.4%;
+  width: auto;
+  height: auto;
+}
+
 .keysc {
   background-image: url(./IMAGES/keysc.jpg);
 }
@@ -537,6 +562,22 @@ body {
   position: absolute;
   top: 19.2%;
   left: 63.4%;
+  width: auto;
+  height: auto;
+}
+
+.vial {
+  background-image: url(./IMAGES/vial.jpg);
+}
+
+.vial-pressed {
+  background-image: url(./IMAGES/vialbnw.jpg);
+}
+
+.vial-on-map {
+  position: absolute;
+  top: 74.1%;
+  left: 31.3%;
   width: auto;
   height: auto;
 }

@@ -23,7 +23,7 @@
       <img src="./IMAGES/googles.jpg" alt="Overlay Image" class="googles-on-map" id="googlesOnMap">
 
       <img src="./IMAGES/headphones.jpg" alt="Overlay Image" class="headphones-on-map" id="headphonesOnMap">
-      <img src="./IMAGES/bear.jpg" alt="Overlay Image" class="bear-on-map" id="bearOnMap">
+      <img src="./IMAGES/vial.jpg" alt="Overlay Image" class="vial-on-map" id="vialOnMap">
       <img src="./IMAGES/solar.jpg" alt="Overlay Image" class="solar-on-map" id="solarOnMap">
       <img src="./IMAGES/wristband.jpg" alt="Overlay Image" class="wristband-on-map" id="wristbandOnMap">
 
@@ -42,6 +42,8 @@
       <img src="./IMAGES/bpb.jpg" alt="Overlay Image" class="bpb-on-map" id="bpbOnMap">
       <img src="./IMAGES/diary.jpg" alt="Overlay Image" class="diary-on-map" id="diaryOnMap">
 
+      <img src="./IMAGES/drive.jpg" alt="Overlay Image" class="drive-on-map" id="driveOnMap">
+
 
 
       <img src="./IMAGES/keysc.jpg" alt="Overlay Image" class="keysc-on-map" id="keyscOnMap">
@@ -55,6 +57,7 @@
       <img src="./IMAGES/gem.jpg" alt="Overlay Image" class="gem-on-map" id="gemOnMap">
 
       <img src="./IMAGES/cap.jpg" alt="Overlay Image" class="cap-on-map" id="capOnMap">
+      <img src="./IMAGES/bear.jpg" alt="Overlay Image" class="bear-on-map" id="bearOnMap">
     </div>
 
     <div class="columns">
@@ -75,7 +78,7 @@
         <div class="spacea">b</div>
         <div>
           <button class="button headphones"></button>
-          <button class="button bear"></button>
+          <button class="button vial"></button>
           <button class="button solar"></button>
           <button class="button wristband"></button>
         </div>
@@ -100,8 +103,12 @@
           <button class="button bpb"></button>
           <button class="button diary"></button>
         </div>
+        <div class="spaceb">h</div>
+        <div>
+          <button class="button drive"></button>
+        </div>
       </div>
-      <div class="space">h</div>
+      <div class="space">i</div>
       <div class="C">
         <div>
           <button class="button keysc"></button>
@@ -119,6 +126,7 @@
         <div class="spacec">l</div>
         <div>
           <button class="button cap"></button>
+          <button class="button bear"></button>
         </div>
       </div>
       <div class="space">m</div>
@@ -152,8 +160,8 @@
 
       const headphonesButton = document.querySelector('.headphones');
       const headphonesImage = document.getElementById('headphonesOnMap');
-      const bearButton = document.querySelector('.bear');
-      const bearImage = document.getElementById('bearOnMap');
+      const vialButton = document.querySelector('.vial');
+      const vialImage = document.getElementById('vialOnMap');
       const solarButton = document.querySelector('.solar');
       const solarImage = document.getElementById('solarOnMap');
       const wristbandButton = document.querySelector('.wristband');
@@ -184,6 +192,9 @@
       const diaryButton = document.querySelector('.diary');
       const diaryImage = document.getElementById('diaryOnMap');
 
+      const driveButton = document.querySelector('.drive');
+      const driveImage = document.getElementById('driveOnMap');
+
 
 
       const keyscButton = document.querySelector('.keysc');
@@ -206,6 +217,8 @@
 
       const capButton = document.querySelector('.cap');
       const capImage = document.getElementById('capOnMap');
+      const bearButton = document.querySelector('.bear');
+      const bearImage = document.getElementById('bearOnMap');
 
       // Initially hide the overlay images
       bombImage.style.display = 'none';
@@ -249,7 +262,7 @@
           googlesImage.style.display = googlesButton.classList.contains('googles-pressed') ? 'block' : 'none';
 
           headphonesImage.style.display = headphonesButton.classList.contains('headphones-pressed') ? 'block' : 'none';
-          bearImage.style.display = bearButton.classList.contains('bear-pressed') ? 'block' : 'none';
+          vialImage.style.display = vialButton.classList.contains('vial-pressed') ? 'block' : 'none';
           solarImage.style.display = solarButton.classList.contains('solar-pressed') ? 'block' : 'none';
           wristbandImage.style.display = wristbandButton.classList.contains('wristband-pressed') ? 'block' : 'none';
 
@@ -268,6 +281,8 @@
           bpbImage.style.display = bpbButton.classList.contains('bpb-pressed') ? 'block' : 'none';
           diaryImage.style.display = diaryButton.classList.contains('diary-pressed') ? 'block' : 'none';
 
+          driveImage.style.display = driveButton.classList.contains('drive-pressed') ? 'block' : 'none';
+
 
 
           keyscImage.style.display = keyscButton.classList.contains('keysc-pressed') ? 'block' : 'none';
@@ -281,6 +296,7 @@
           gemImage.style.display = gemButton.classList.contains('gem-pressed') ? 'block' : 'none';
 
           capImage.style.display = capButton.classList.contains('cap-pressed') ? 'block' : 'none';
+          bearImage.style.display = bearButton.classList.contains('bear-pressed') ? 'block' : 'none';
         });
       });
 
