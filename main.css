@@ -582,6 +582,22 @@ body {
   height: auto;
 }
 
+.alc {
+  background-image: url(./IMAGES/alc.jpg);
+}
+
+.alc-pressed {
+  background-image: url(./IMAGES/alcbnw.jpg);
+}
+
+.alc-on-map {
+  position: absolute;
+  top: 33.5%;
+  left: 67.4%;
+  width: auto;
+  height: auto;
+}
+
 .clear {
   margin-right: 50%;
 }

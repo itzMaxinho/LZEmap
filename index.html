@@ -58,6 +58,7 @@
 
       <img src="./IMAGES/cap.jpg" alt="Overlay Image" class="cap-on-map" id="capOnMap">
       <img src="./IMAGES/bear.jpg" alt="Overlay Image" class="bear-on-map" id="bearOnMap">
+      <img src="./IMAGES/alc.jpg" alt="Overlay Image" class="alc-on-map" id="alcOnMap">
     </div>
 
     <div class="columns">
@@ -127,6 +128,7 @@
         <div>
           <button class="button cap"></button>
           <button class="button bear"></button>
+          <button class="button alc"></button>
         </div>
       </div>
       <div class="space">m</div>
@@ -172,7 +174,7 @@
       const analyzerButton = document.querySelector('.analyzer');
       const analyzerImage = document.getElementById('analyzerOnMap');
 
-
+      // B
 
       const keysbButton = document.querySelector('.keysb');
       const keysbImage = document.getElementById('keysbOnMap');
@@ -195,7 +197,7 @@
       const driveButton = document.querySelector('.drive');
       const driveImage = document.getElementById('driveOnMap');
 
-
+      // C
 
       const keyscButton = document.querySelector('.keysc');
       const keyscImage = document.getElementById('keyscOnMap');
@@ -219,6 +221,8 @@
       const capImage = document.getElementById('capOnMap');
       const bearButton = document.querySelector('.bear');
       const bearImage = document.getElementById('bearOnMap');
+      const alcButton = document.querySelector('.alc');
+      const alcImage = document.getElementById('alcOnMap');
 
       // Initially hide the overlay images
       bombImage.style.display = 'none';
@@ -269,7 +273,7 @@
           diskImage.style.display = diskButton.classList.contains('disk-pressed') ? 'block' : 'none';
           analyzerImage.style.display = analyzerButton.classList.contains('analyzer-pressed') ? 'block' : 'none';
 
-
+          // B
 
           keysbImage.style.display = keysbButton.classList.contains('keysb-pressed') ? 'block' : 'none';
           docsbImage.style.display = docsbButton.classList.contains('docsb-pressed') ? 'block' : 'none';
@@ -283,7 +287,7 @@
 
           driveImage.style.display = driveButton.classList.contains('drive-pressed') ? 'block' : 'none';
 
-
+          // C
 
           keyscImage.style.display = keyscButton.classList.contains('keysc-pressed') ? 'block' : 'none';
           scanerImage.style.display = scanerButton.classList.contains('scaner-pressed') ? 'block' : 'none';
@@ -297,6 +301,7 @@
 
           capImage.style.display = capButton.classList.contains('cap-pressed') ? 'block' : 'none';
           bearImage.style.display = bearButton.classList.contains('bear-pressed') ? 'block' : 'none';
+          alcImage.style.display = alcButton.classList.contains('alc-pressed') ? 'block' : 'none';
         });
       });
 
